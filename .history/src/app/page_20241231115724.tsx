@@ -1,8 +1,8 @@
 "use client";
 import { useEffect } from "react";
 import { CodeIcon, GlobeIcon, Pen } from "lucide-react";
-import { Button } from "../components/ui/button";
-import { Card, CardContent } from "../components/ui/card";
+import { Button } from "";
+import { Card, CardContent } from "./components/ui/card";
 import { satoshi } from "../fonts/fonts";
 import Image from "next/image";
 import Link from "next/link";

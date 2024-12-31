@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { AuthProvider } from "@/app/context/AuthContext";
-import { geistSans } from "../fonts/fonts";
+import { geistSans } from "./fonts/fonts";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/Footer";

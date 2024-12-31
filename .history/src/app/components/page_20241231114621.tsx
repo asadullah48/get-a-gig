@@ -6,9 +6,9 @@ import LoadingSpinner from "@/components/loadingSpinner";
 import { getAllJobs } from "@/lib/webscrapeJobs";
 import { Job } from "@/app/types/jobs";
 import { toast } from "sonner";
-import JobsFilters from "@/dashboard/components/JobsFilters";
-import JobsList from "@/dashboard/components/JobsList";
-import JobView from "@/components/JobView";
+import JobsFilters from "@/app/dashboard/components/JobsFilters";
+import JobsList from "@/app/dashboard/components/JobsList";
+import JobView from "./components/JobView";
 
 export default function Dashboard() {
   const { data: session, status } = useSession();

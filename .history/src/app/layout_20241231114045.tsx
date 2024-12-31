@@ -2,11 +2,11 @@ import React from "react";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { AuthProvider } from "@/app/context/AuthContext";
-import { geistSans } from "../fonts/fonts";
-import Header from "@/components/Header";
-import { ThemeProvider } from "@/components/theme-provider";
-import Footer from "@/components/Footer";
-import { Toaster } from "@/components/ui/sonner";
+import { geistSans } from "./fonts/fonts";
+import Header from "@/app/";
+import { ThemeProvider } from "@/app/components/theme-provider";
+import Footer from "@/app/components/Footer";
+import { Toaster } from "@/app/components/ui/sonner";
 import { JobDetailsProvider } from "@/app/context/JobDetails";
 import { Analytics } from "@vercel/analytics/react";
 

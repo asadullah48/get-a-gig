@@ -19,7 +19,7 @@ import { signIn } from "next-auth/react";
 import { FaEye, FaEyeSlash, FaGoogle } from "react-icons/fa";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { satoshi } from "@/app/fonts/fonts";
+import { satoshi } from "@/fonts/fonts";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
