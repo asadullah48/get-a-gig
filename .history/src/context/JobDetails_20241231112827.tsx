@@ -1,6 +1,6 @@
 "use client";
 import { createContext, useContext, useState, ReactNode } from "react";
-import { Job } from "@/types/jobs";
+import { Job } from "@/app/types/jobs";
 import { Dispatch, SetStateAction } from "react";
 
 // Define the shape of the context

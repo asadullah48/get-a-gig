@@ -9,7 +9,7 @@ import {
   SelectValue,
 } from "@/app/components/ui/select";
 import { useState } from "react";
-import { Job } from "@/app/types/jobs";
+import { Job } from "@/types/jobs";
 import { Dispatch, SetStateAction } from "react";
 
 interface FilterProps {

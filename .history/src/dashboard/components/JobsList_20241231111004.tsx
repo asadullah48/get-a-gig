@@ -1,7 +1,7 @@
 "use client";
-import { useJobDetails } from "@/app/context/JobDetails";
+import { useJobDetails } from "@/context/JobDetails";
 import { Button } from "@/app/components/ui/button";
-import { Job } from "@/app/types/jobs";
+import { Job } from "@/types/jobs";
 import CompanyLogo from "./CompanyLogo";
 import {
   Card,

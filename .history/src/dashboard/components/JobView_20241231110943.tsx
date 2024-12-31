@@ -1,4 +1,4 @@
-import { useJobDetails } from "@/app/context/JobDetails";
+import { useJobDetails } from "@/context/JobDetails";
 import CompanyLogo from "./CompanyLogo";
 import { useEffect, useState } from "react";
 import { getJobDetails } from "@/lib/webscrapeJobs";
