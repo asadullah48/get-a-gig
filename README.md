@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Get A Gig
 
-## Getting Started
+**Get A Gig** is a platform designed to connect software engineers with remote job opportunities in the tech industry. Whether you're looking for full-time positions or freelance gigs, our curated list of tech-focused roles helps you find the right match while giving you the freedom to work from anywhere.
 
-First, run the development server:
+![Landing Page](public/images/screenshots/landing_page.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center" style="color: #9CA3AF">Landing Page</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **100% Remote Jobs**  
+  All the opportunities on our platform are fully remote, allowing you to choose where you want to work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Tech-Focused Listings**  
+  Get a Gig focuses on software engineering and tech-related job openings, ensuring you're always browsing relevant opportunities.
 
-## Learn More
+- **Cover Letter Generator**  
+  Our built-in cover letter generator creates tailored cover letters for any job you apply to, helping you put your best foot forward.
 
-To learn more about Next.js, take a look at the following resources:
+![Dark Landing Page](public/images/screenshots/dark_landing_page.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="center" style="color: #9CA3AF">Dark Landing Page</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How It Works
 
-## Deploy on Vercel
+1. **Create Your Profile**  
+   Start by signing up and creating a profile that highlights your skills, experience, and preferences.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Profile](public/images/screenshots/profile.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center" style="color: #9CA3AF">Profile</p>
+
+2. **Explore Opportunities**  
+   Browse through our curated selection of remote tech jobs to find the perfect role for you.
+
+![Dark Dashboard](public/images/screenshots/dark_dashboard.png)
+
+<p align="center" style="color: #9CA3AF">Dark Dashboard</p>
+
+3. **Apply and Connect**  
+   Apply to jobs directly through the platform and connect with potential employers to discuss next steps.
+
+![Job View](public/images/screenshots/job_view.png)
+
+<p align="center" style="color: #9CA3AF">Job View</p>
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS, Shadcn UI
+- **Backend**: Prisma ORM, PostgreSQL (Neon)
+- **Authentication**: NextAuth
+- **Hosting**: Vercel
+- **Cover Letter Generator**: Groq AI with Llama model
+
+![Dark Cover Letter Generator](public/images/screenshots/dark_cover_letter.png)
+
+<p align="center" style="color: #9CA3AF">Cover Letter Generator</p>
+
+## Our Team
+
+### Abdelrahman Hany
+
+Abdelrahman is a former design architect turned software engineer, bringing creativity and a unique problem-solving approach to tech. His architectural background helps him design innovative digital solutions.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abduhany/">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg" alt="LinkedIn" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="https://github.com/Abduhany">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="https://x.com/AbduuHany">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/twitter-x.svg" alt="X" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="mailto:abdu.hany@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail&theme=light" alt="Email" height="45" width="45" style="transform: translateY(3px);"/>
+  </a>
+</p>
+
+### Youssef Charif Hamidi
+
+Youssef is a passionate software engineer dedicated to using technology to empower others and create meaningful opportunities. His personal journey inspires him to make a positive impact through innovation.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/youssef-charif-hamidi/">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg" alt="LinkedIn" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="https://github.com/Chareeef">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="https://x.com/YoussefCharifH2">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/twitter-x.svg" alt="X" height="36" width="36" style="margin-right: 5px;"/>
+  </a>
+  <a href="mailto:youssef.charif.h@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail&theme=light" alt="Email" height="45" width="45" style="transform: translateY(3px);"/>
+  </a>
+</p>
+
+## Gallery
+
+![Dark Signup](public/images/screenshots/dark_signup.png)
+
+<p align="center" style="color: #9CA3AF">Dark Signup</p>
+
+![Sign Up](public/images/screenshots/signup.png)
+
+<p align="center" style="color: #9CA3AF">Sign Up</p>
+
+![Dark Profile](public/images/screenshots/dark_profile.png)
+
+<p align="center" style="color: #9CA3AF">Dark Profile</p>
+
+![Dashboard](public/images/screenshots/dashboard.png)
+
+<p align="center" style="color: #9CA3AF">Dashboard</p>
+
+![Dark Job View](public/images/screenshots/dark_job_view.png)
+
+<p align="center" style="color: #9CA3AF">Dark Job View</p>
+
+## Thanks
+
+Thank you for visiting **Get A Gig**! We believe in the power of remote work and are dedicated to helping you find the perfect job in tech. We’re excited to be a part of your journey toward your next great opportunity.
